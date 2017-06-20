@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>James | Math</title>
+<link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,400,400i,800,800i" rel="stylesheet"> 
+<style>
+* {
+	font-family: Raleway;
+	font-style: 100;
+	color: white;
+}
+body {
+	background-color: #a3becc;
+	align: center;
+}
+h1 {
+	text-align: center;
+	font-size: 72px;
+	color: black;
+}
+.title {
+	font-size: 42px;
+}
+.JonIsAButt {
+	
+}
+.JonIsAHugeButt {
+	float: right;
+}
+.button {
+    background-color: #008CBA;
+    border: none;
+    color: white;
+    padding: 15px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 22px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	border-radius: 16px;
+	width: 14%;
+}
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.hidden{
+    display:none;
+	color: white;
+}
+.unhidden{
+    display:block;
+}
+.button-text {
+	color: white;
+}
+.buttons {
+	text-align: center;
+}
+.page {
+	text-align: center;
+	color: white;
+	background-color: #008CBA;
+	float: center;
+	position: relative;
+	top: 16px;
+	border-radius: 16px;
+	width: 50%;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+	top: 50%;
+	left: 50%;
+	margin: 0px 0 0 -25%;
+
+}
+p {
+	font-size: 22px;
+}
+</style>
+</head>
+<script type="text/javascript" class="button-func">
+    function unhide(divID, translation, reflection, transformations, diagrams, probabilité) {
+    var item = document.getElementById(divID);
+    if (item) {
+            item.className=(item.className=='hidden')?'unhidden page':'hidden';
+			document.getElementById(translation).className = 'hidden';
+			document.getElementById(reflection).className = 'hidden';
+			document.getElementById(transformations).className = 'hidden';
+			document.getElementById(diagrams).className = 'hidden';
+			document.getElementById(probabilité).className = 'hidden';
+        }
+    }
+	
+</script>
+<body>
+
+<h1>James | Concepts de Math</h1>
+<div class="buttons">
+<a href="javascript:unhide('translation', 'rotation', 'reflection', 'transformations-multiples', 'diagrammes-circulaires', 'probabilité')" class="button button2"><img src="http://i.imgur.com/o44gDEP.png" alt="Translation-image" height="50%" width="50%"><p class="button-text">Translation</p></a>
+<a href="javascript:unhide('rotation', 'translation', 'reflection', 'transformations-multiples', 'diagrammes-circulaires', 'probabilité')"  class="button button2"><img src="http://i.imgur.com/giOlLoB.png" alt="Rotation-image" height="50%" width="50%"><p class="button-text">Rotation</p></a>
+<a href="javascript:unhide('reflection', 'rotation', 'translation', 'transformations-multiples', 'diagrammes-circulaires', 'probabilité')"  class="button button2"><img src="http://i.imgur.com/3M7WeHE.png" alt="Reflection-image" height="50%" width="50%"><p class="button-text">Reflection</p></a>
+<a href="javascript:unhide('transformations-multiples', 'rotation', 'reflection', 'translation', 'diagrammes-circulaires', 'probabilité')"   class="button button2")><img src="http://i.imgur.com/CmVtFQi.png" alt="transformations-multiples-image" height="50%" width="50%"><p class="button-text">Transformations Multiples</p></a>
+<a href="javascript:unhide('diagrammes-circulaires', 'rotation', 'reflection', 'transformations-multiples', 'translation', 'probabilité')"   class="button button2"><img src="http://i.imgur.com/FWZS6ip.png" alt="Diagramme-image" height="50%" width="50%"><p class="button-text">Diagramme Circulaire</p></a>
+<a href="javascript:unhide('probabilité', 'rotation', 'reflection', 'transformations-multiples', 'diagrammes-circulaires', 'translation')"  class="button button2"><img src="http://i.imgur.com/2stYMkQ.png" alt="probabilité-image" height="50%" width="50%"><p class="button-text">Probabilité</p></a>
+</div>
+<div id="translation" class="page hidden">
+<h2 class="title">Translation</h2>
+<script class="JonIsAHugeButt" src=https://phosphorus.github.io/embed.js?id=157543886&auto-start=true&light-content=false></script>
+<p class="JonIsAButt">Un <b>translation</b> c'est quand tu bouge une object d'une place a une autre. Dans mon exemple, tu bouge le chat d'un place a l'autre.</p>
+<p class="JonIsAButt">Utilise l'exemple en haut pour faire un translation.</p>
+</div>
+<div id="rotation" class="hidden page">
+<h2 class="title">Rotation</h2>
+<script style="vertical-align:middle" src=https://phosphorus.github.io/embed.js?id=157512575&auto-start=true&light-content=false></script>
+<script style="vertical-align:middle" src=https://phosphorus.github.io/embed.js?id=157560068&auto-start=true&light-content=false></script>
+<p class="JonIsAButt">Un <b>rotation</b> c'est quand tu prends une object, et tu fais une rotation sur le centre de rotation. Dans mon example, l'object c'est le chat, et le point de rotation c'est le centre du project (0, 0).</p>
+<p class="JonIsAButt">Utilse l'exemple en haut pour faire un rotation.</p>
+</div>
+<div id="reflection" class="page hidden">
+<h2 class="title">Reflection</h2>
+<script src=http://newton.nes.aau.at/~sulfurous/embed.js?id=157563816&resolution-x=480&auto-start=true&light-content=false></script>
+<p class="JonIsAButt">Un <b>reflection</b> c'est quand tu prends une oject, et tu inverse l'image sur l'axe.</p>
+<p class="JonIsAButt">Utilise l'exemple en haut pour voire un reflection. Tu peux clicker sur le cercle bleu pour changer l'axe.</p>
+</div>
+<div id="transformations-multiples" class="page hidden">
+<h2 class="title">Transformations Multiples</h2>
+<script src=https://phosphorus.github.io/embed.js?id=157575671&auto-start=true&light-content=false></script>
+</div>
+<div id="diagrammes-circulaires" class="page hidden">
+<h2 class="title">Diagrammes Circulaires</h2>
+<script src=http://newton.nes.aau.at/~sulfurous/embed.js?id=158495881&resolution-x=480&auto-start=true&light-content=false></script>
+<p class="JonIsAButt">Un Diagramme Circulaire, c'est un façon simple de montrer des pourcentages, car c'est comme tu divise une tarte.</p>
+</div>
+<div id="probabilité" class="page hidden">
+<h2 class="title">Probabilité</h2>
+<script src=https://phosphorus.github.io/embed.js?id=159465432&auto-start=true&light-content=false></script>
+</div>
+</body>
+</html>
